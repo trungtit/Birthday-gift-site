@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+
+body {
+  font-family: "Happy Monkey", cursive;
+  /* background-color: #a2d2ff; */
+  background: linear-gradient(blue, pink);
+  color: #ffff;
+  text-shadow: 0 0 1px black;
+}
+
+#selfie-pic {
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  border: solid 6px #efb0c9;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bday-age {
+  background-color: #efb0c9;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin-top: 15px;
+}
+#bday-date {
+  margin: 0;
+  background-color: #efb0c9;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+.gift-section {
+  margin-top: 20px;
+  text-align: center;
+}
+.gift-title {
+}
+.gift-hint {
+  margin: 0 auto 10px auto;
+}
+.gift-cover {
+  width: 500px;
+  height: 500px;
+  background-image: url("gift-box-cover.jpg");
+  background-size: cover;
+  border: solid 5px white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#my-feeling:hover {
+  background-image: url("cat_dacing.gif");
+  background-size: cover;
+  cursor: pointer;
+}
+#people-feeling:hover {
+  background-image: url("cats_dacing.gif");
+  background-size: cover;
+  cursor: pointer;
+}
